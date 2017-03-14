@@ -1,0 +1,3 @@
+[submodule "scheme-format"]
+	path = scheme-format
+	url = git@github.com:russellw/scheme-format.git
