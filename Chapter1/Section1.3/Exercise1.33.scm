@@ -41,10 +41,10 @@
           (else (remainder (* base (miller-rabin-expmod base (- exp 1) m)) m))))
 
 (define (prod-pos-ints-relprime n)
-    (define (filter i) (= (gcd i n) 1))
+    (define (relative-prime? i) (= (gcd i n) 1))
     (define (identity x) x)
     (define (next y) (+ y 1))
-    (filtered-accumulate filter * 1 identity 1 next n))
+    (filtered-accumulate relative-prime? * 1 identity 1 next n))
 
 (define (gcd a b)
     (if (= b 0)
