@@ -1,0 +1,4 @@
+Eva is right that par2 will provide tighter bounds,
+and in this instance is the more correct answer. But,
+it demonstrates that interval arithmetic probably should
+not be used in these types of anlyses.
