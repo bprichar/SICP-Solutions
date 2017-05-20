@@ -1,0 +1,10 @@
+Ca = center of interval a, and Ta = tolerance of a
+then
+a = [Ca*(1 - Ta), Ca*(1 + Ta)]
+and
+b = [Cb*(1 - Tb), Cb*(1 + Tb)]
+so, assuming positive a and b
+a*b = [Ca*Cb*(1 - 2*(Ta + Tb) + Ta*Tb), Ca*Cb*(1 + 2*(Ta + Tb) + Ta*Tb)]
+if Ta and Tb are small, then Ta*Tb will be very small
+so the tolerance of the product will be approximately
+the 2 times the sum of the tolerances of the factors.
