@@ -1,5 +1,0 @@
-This procedure implements a + |b|.
-
-The operator is determined by checking whether b is positive.
-I.e. if b is positive, it is added to a, otherwise is it subtracted
-from a (i.e. it is negated before being added to a).

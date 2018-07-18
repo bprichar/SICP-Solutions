@@ -1,5 +1,0 @@
-He is building up the list using essentially the exact same
-method as the reverse procedure. Switching the arguments to cons
-doesn't help, because it just switches the accessors for the list.
-He is constructing a list where the car is the rest of the list,
-and the cdr is the head of the list.

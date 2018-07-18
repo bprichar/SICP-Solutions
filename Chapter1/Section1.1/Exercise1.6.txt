@@ -1,6 +1,0 @@
-The procedure would perform exactly the same, in a normal
-order environment. However, in an applicative order environment
-sqrt-iter would be called recursively to infinity because
-the new-if evaluates it's operands fully, before being called.
-The original, special form of if explicitly uses normal
-order operation, thereby avoiding such problems.

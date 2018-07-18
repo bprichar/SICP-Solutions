@@ -1,8 +1,0 @@
-(define (pascal row column)
-        (cond ((> column row) 0)
-              ((< column 1) 0)
-              ((< row 1) 0)
-              ((= column 1) 1)
-              ((= column row) 1)
-              (else (+ (pascal (- row 1) column)
-                       (pascal (- row 1) (- column 1))))))

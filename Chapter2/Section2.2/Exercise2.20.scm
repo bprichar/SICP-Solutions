@@ -1,8 +1,0 @@
-(define (same-parity first . rest)
-    (define (iter result rest)
-        (if (null? rest)
-            (reverse result)
-            (if (= (modulo first 2) (modulo (car rest) 2))
-                (iter (cons (car rest) result) (cdr rest))
-                (iter result (cdr rest)))))
-    (iter (list first) rest))

@@ -1,4 +1,0 @@
-In a normal-order environment, the expression will evaluate to 0,
-becuase it will never evaluate the expression (p). However, in an
-applicative-order environment, an infinite recursion
-will occur, where p recursively evaluates itself.

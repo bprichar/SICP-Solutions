@@ -1,4 +1,1 @@
-SICP Solutions
-==============
-
-My attempt at solutions to the exercises in SICP.
+This project has moved to https://gitlab.com/everythingfunctional/SICP-Solutions
